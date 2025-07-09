@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* important for layout */
+}
+
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial,
+        sans-serif;
+}
+main{
+    
+    width: 100%;
+    
+    margin: 0px;
+    }
+    
+#navbar {
+    
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;  
+    width: 100%;
+    
+    
+    /* box shadow  */
+    box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.33);
+    -webkit-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 1px 5px -1px rgba(0,0,0,0.33);
+
+    
+}
+    #navbar-left
+{   
+    
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 6px;
+    gap: 30px;
+    font-weight: bold;
+}
+
+#navbar-left a svg{
+    width: 3.6vw;
+    margin-left: 8.5px;
+}
+#navbarmenu a:hover,
+#find-a-store a:hover,
+#location-svg :hover
+ {
+    color : #00754a; /* Starbucks green or any accent color */
+    transition : color 0.3s;
+}
+#location-svg
+{   
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    
+}
+
+#navbarmenu
+{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-transform: uppercase;
+    margin-left: 0.2vw;
+    
+}
+#navbarmenu a{
+    color: black;
+    text-decoration: none;
+} 
+#navbar-right
+{   
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    margin-right: 10px;
+    
+  }
+#navbar-right a{
+    text-decoration: none;
+    color: black;
+}
+
+.signin
+{   display: flex;
+    gap: 10px ;
+    margin-right: 50px;
+    
+}
+.signin a
+{   
+    border: 1px solid black;
+    border-radius: 10px;
+      display: inline-block;        
+  padding: 7px 15px;           
+  border-radius: 20px;          
+  text-decoration: none;         
+  border: 1px solid black;      
+  color: black;                
+  font-size: 0.9vw;             
+  overflow: hidden;             
+  white-space: nowrap;  
+  
+}
+.signin a:hover
+{
+    background-color: #E5E5E5;
+}
+
+
+.signin a#join{
+    background-color: black;
+    color: white;
+}
+
+/* hero section */
+#hero
+{   width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: #F7F0E4;
+    display: flex;
+    
+}
+.right
+{
+    width: 50vw;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 100px;
+    
+}
+
+.left-image img
+{
+   width: 50vw;
+   height: 100%;
+}
+.textstrato
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #32462F;
+    
+}
+.textpara
+{   font-size: 25px;
+    padding-top: 25px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.ordernow
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.ordernow a
+{
+    font-size: 20px;
+}
+.ordernow a:hover
+{
+    background-color: #E1DED2;
+}
+
+#second
+{
+    width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
+    margin-top: 30px;
+    display: flex;
+    background-color: #32462F;
+    color: white;
+    
+}
+.secondtext
+{   
+   padding-top: 0px;
+    color: white;
+}
+#second a
+{   
+    color: white;
+    border : white 1px solid;
+}
+#second a:hover
+{
+    background-color: #283826;
+}
+#secondtextcontent
+{
+    padding-top: 50px;
+    
+}
+
+#third
+{
+    width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
+    margin-top: 30px;
+    display: flex;
+    background-color: #D1D1AA;
+    color: white;
+    
+}
+#third p
+{
+    color: #32462F;
+}
+
+#third a:hover
+{
+    background-color: #BFC29E;
+}
+
+#fourth
+{
+    width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
+    margin-top: 30px;
+    display: flex;
+    background-color:#006242;
+    color: white;
+}
+
+#fourth a
+{
+    color: white;
+    border-color: white;
+}
+#fourth a:hover
+{
+    background-color: #004E35;
+}
+
+#about
+{   
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+   margin-left: 30vw;
+   margin-right: 30vw;
+   font-size: 17px;
+}
+
+#about-us-container
+{
+     width: 100vw;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.17);
+-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.17);
+-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.17);
+}
+#about-us {
+  display: flex;         /* Puts all <ul> side-by-side */
+  gap: 60px;             /* Space between each column */
+  padding: 30px;
+  background-color: #ffffff;  /* Optional: light background */
+  justify-content: center;   /* Center them horizontally */
+  margin-right: 25vw;
+}
+
+#about-us ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#about-us ul li {
+  margin-bottom: 10px;   /* Vertical space between each item */
+  font-size: 20px;
+  color: #000;
+}
+
+#about-us ul li:first-child {
+  font-weight: bold;     /* Make the heading bold */
+  margin-bottom: 30px;
+}
+
+#about-us ul li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 18px;
+}
+
+#about-us ul li a:hover {
+  
+  color: black; 
+}
+
+footer
+{
+    padding: 20px;
+}
+
+#social {
+  display: flex;
+  gap: 16px; 
+   
+  padding: 20px 0 0 20px; 
+}
+
+#social a svg {
+  width: 32px;
+  height: 32px;
+  fill: currentColor;
+  transition: transform 0.2s ease;
+  color: black;
+}
+
+#social a:hover svg {
+  transform: scale(1.1); 
+  color: #00754a; 
+}
+#legal
+{   
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.links
+{
+    margin-bottom: 20px;
+}
+.links a
+{
+    font-weight: 300;
+    color: black;
+    text-decoration: none;
+   font-size: 19px;
+    
+}
+.links a:hover
+{
+    text-decoration: underline;
+}
